@@ -28,13 +28,13 @@ body {
         font-size: 1.2rem;
     }
 
-    #control_structures h2 {
+    #Control_Structures h2 {
         font-size: 0.8rem;
         margin-bottom: 0.6rem;
         width: 15vw;
     }
 
-    #control_structures code {
+    #Control_Structures code {
         margin-bottom: 0.5rem;
     }
 }
