@@ -9,6 +9,38 @@ body {
     background-color: #F2F2F2;
 }
 
+@media (min-width: 768px) {
+    #navbar {
+        width: 20vw;
+    }
+
+    #main-doc {
+        margin-left: 10rem;
+        margin-top: 0;
+    }
+
+    .main-section {
+        width: 57vw;
+    }
+
+    .sec-header {
+        height: 3vh;
+        font-size: 1.2rem;
+    }
+
+    #control_structures h2 {
+        font-size: 0.8rem;
+        margin-bottom: 0.6rem;
+        width: 15vw;
+    }
+
+    #control_structures code {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
 .main-container {
     display: flex;
     line-height: 1.3rem;
@@ -57,13 +89,14 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    margin-left: 20rem;
 }
 
 .main-section {
-    width: 80vw;
+    width: 83vw;
     font-size: 0.9rem;
     padding: 1.3rem;
+    position: relative;
+    left: 8.5rem;
 }
 
 .main-section p {
@@ -95,7 +128,7 @@ body {
     font-size: 1rem;
     background-color: #b4a1c9;
     height: 3vh;
-    width: 20vw;
+    width: 12vw;
     display: flex;
     align-items: center;
     color: white;
@@ -105,3 +138,5 @@ body {
 #control_structures code {
     padding: 1rem 3rem
 }
+}
+
