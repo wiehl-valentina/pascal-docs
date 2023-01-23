@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.main-container {
+    display: flex;
+    line-height: 1.3rem;
+    align-content: space-between;
+}
+
+#navbar {
+    background-color: #B4A1C9;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 100vh;
+    border-right: 2px solid white;
+    color: white;
+    position: fixed;
+}
+
+#nav-header {
+    width: 100%;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+#nav-header h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.nav-link {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid white;
+    padding-left: 1.2rem;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#main-doc {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-left: 20rem;
+}
+
+.main-section {
+    width: 80vw;
+    font-size: 0.9rem;
+    padding: 1.3rem;
+}
+
+.main-section p {
+    padding-left: 1rem;
+}
+
+.sec-header {
+    font-size: 1.5rem;
+    background-color: #B6C9A1;
+    height: 5vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    padding-left: 0.8rem;
+}
+
+#control_structures {
+    display: flex;
+    flex-direction: column;
+}
+
+#control_structures ul {
+    padding: 1rem 3rem
+}
+
+#control_structures h2 {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background-color: #b4a1c9;
+    height: 3vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+#control_structures code {
+    padding: 1rem 3rem
+}
