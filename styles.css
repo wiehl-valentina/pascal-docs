@@ -114,16 +114,16 @@ body {
     padding-left: 0.8rem;
 }
 
-#control_structures {
+#Control_Structures {
     display: flex;
     flex-direction: column;
 }
 
-#control_structures ul {
+#Sontrol_Structures ul {
     padding: 1rem 3rem
 }
 
-#control_structures h2 {
+#Control_Structures h2 {
     padding: 1rem 1rem;
     font-size: 1rem;
     background-color: #b4a1c9;
@@ -135,7 +135,7 @@ body {
     font-weight: 400;
 }
 
-#control_structures code {
+#Control_Structures code {
     padding: 1rem 3rem
 }
 }
